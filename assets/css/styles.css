@@ -362,10 +362,15 @@ footer span {
     height: 100%;
     background: #fff;
     display: flex;
+    flex-direction: column;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     z-index: 9999;
+    color: #5595d1;
+    font-weight: bold;
 }
+
 
 
 .spinner {
